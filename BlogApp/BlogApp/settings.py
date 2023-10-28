@@ -134,7 +134,6 @@ CRISPY_TEMPLATE_PACK='bootstrap5'
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 #to define crispy template pack and style to use
-
 LOGIN_REDIRECT_URL='blog-home'
 
 LOGIN_URL='login'
@@ -145,3 +144,4 @@ EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+
